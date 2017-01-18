@@ -6,11 +6,45 @@ body {
         background: #ffffff url("https://drive.google.com/a/uchicago.edu/file/d/0B_1SHGMx6eydRV9CRGdSZF9DbXc/view?usp=sharing") no-repeat center top;
 
 
+
+
 }
+
+h1 {
+  background: url("http://www.destination360.com/north-america/us/illinois/chicago/images/s/skyline.jpg") no-repeat center center fixed;
+
+    min-height: 420px;
+    width: 100%;
+    max-width: 2000px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 0px;
+  }
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 100%
+    opacity: 0.6;
+}
+
+}
+
+
 
 a {
   text-decoration: none;
 }
+
+
+div.ILCimage { http://i.imgur.com/YanGuHl.png;
+   opacity: 0.7;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+
 
 .et-hero-tabs,
 .et-slide {

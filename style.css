@@ -10,25 +10,32 @@ body {
 
 }
 
+
 h1 {
   background: url("http://www.destination360.com/north-america/us/illinois/chicago/images/s/skyline.jpg") no-repeat center center fixed;
 
-    min-height: 420px;
+    min-height: 500px;
     width: 100%;
     max-width: 2000px;
+    height: auto;
+    max-height:1600px;
     vertical-align: middle;
     text-align: center;
     margin: 0 auto;
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     padding-top: 0px;
   }
+
 
 img {
     width: 100%;
     height: auto;
-    max-width: 100%
-    opacity: 0.6;
+    vertical-align: middle;
+    margin: 0 auto;
+    max-width: 100%;
+    opacity: 0.8;
+    background: url(http://i.imgur.com/YanGuHl.png) no-repeat center center;
 }
 
 }
@@ -64,18 +71,21 @@ div.ILCimage { http://i.imgur.com/YanGuHl.png;
   height: 100vh;
   position: relative;
   background: #eee;
+    text-decoration: none;
 }
 .et-hero-tabs h1,
 .et-slide h1 {
   font-size: 3rem;
   margin: 0;
   letter-spacing: 1rem;
+    text-decoration: none;
 }
 .et-hero-tabs h3,
 .et-slide h3 {
   font-size: 1.25rem;
   letter-spacing: 0.1rem;
   opacity: 1;
+    text-decoration: none;
 }
 
 .et-hero-tabs-container {
@@ -92,11 +102,13 @@ div.ILCimage { http://i.imgur.com/YanGuHl.png;
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   background: #fff;
-  z-index: 10;
+  z-index: 5;
+    text-decoration: none;
 }
 .et-hero-tabs-container--top {
   position: fixed;
   top: 0;
+    text-decoration: none;
 }
 
 .et-hero-tab {
@@ -116,6 +128,7 @@ div.ILCimage { http://i.imgur.com/YanGuHl.png;
   letter-spacing: 0.1rem;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+    text-decoration: none;
 }
 .et-hero-tab:hover {
   color: white;
@@ -129,7 +142,7 @@ div.ILCimage { http://i.imgur.com/YanGuHl.png;
   bottom: 0;
   width: 0;
   height: 6px;
-  background: #66B1F1;
+  background: #0090ff;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
 }
